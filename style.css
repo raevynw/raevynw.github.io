@@ -107,6 +107,8 @@ h2 {
 }
 #interests h3 {
   color: #e94560;
+  #interests h3 {
+  color: #e94560;
 }
 
 #interests li {
@@ -118,6 +120,29 @@ h2 {
 #interests li:hover {
   background: #e94560;
   color: #fff;
+}
+}
+
+#interests li {
+  color: #fffdfd;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: #030303;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+  cursor: default;
+}
+
+#interests li:hover {
+  background: #000;
+  color: #f78181;
+  border-color: #000;
+  transform: translateY(-2px);
 }
 .sidebar-img {
   width: 100%;
@@ -185,7 +210,7 @@ nav h1 {
 }
 nav {
   background: #1a1a2e;
-  border-color: #1a1a2e;
+  border-color: #f0f0f6;
 }
 
 nav h1 {
@@ -200,6 +225,4 @@ nav h1 {
   background: #e94560;
   color: #fff;
 }
-git add 
-git commit -m "finished first website"
-git push
+
