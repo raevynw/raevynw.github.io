@@ -20,26 +20,33 @@ var init = function (window) {
         ///////////////////
         
         // TODO 1 : Declare and initialize our variables
-     var circles 
+        var circle;
+        var circles = [] 
 
 
         // TODO 2 : Create a function that draws a circle 
-        function drawCircle
-        function exampleFunction() {
+        function drawCircle(){
+
 
 }
 
 
         // TODO 3 : Call the drawCircle() function
-        var circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
-physikz.addRandomVelocity(circle, canvas, 5, 5);
-view.addChild(circle);
-circles.push(circle);
-functionName(drawCircle);
-
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
+drawCircle();
 
         // TODO 7 : Use a loop to create multiple circles
-
+     for (var i = 0; i < 50; i++) {
+ 
+}
 
 
 
@@ -54,25 +61,32 @@ functionName(drawCircle);
         */
         function update() {
             // TODO 4 : Update the position of each circle using physikz.updatePosition()
-           circles[0]
-           physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
-           physikz.updatePosition(/* bracket notation to access the first circle */);
-physikz.updatePosition(/* bracket notation to access the second circle */);
-physikz.updatePosition(/* bracket notation to access the third circle */);
-physikz.updatePosition(/* bracket notation to access the fourth circle */);
-physikz.updatePosition(/* bracket notation to access the fifth circle */);
-            
+physikz.updatePosition(circles[0]);
+physikz.updatePosition(circles[1]);
+physikz.updatePosition(circles[2]);
+physikz.updatePosition(circles[3]);
+physikz.updatePosition(circles[4]);
+physikz.updatePosition(circles[5]);
+physikz.updatePosition(circles[6]);
+physikz.updatePosition(circles[7]);
+physikz.updatePosition(circles[8]);
+physikz.updatePosition(circles[9]);
+
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition()
-           game.checkCirclePosition(/* bracket notation to access the first circle */);
-game.checkCirclePosition(/* bracket notation to access the second circle */);
-game.checkCirclePosition(/* bracket notation to access the third circle */);
-game.checkCirclePosition(/* bracket notation to access the fourth circle */);
-game.checkCirclePosition(/* bracket notation to access the fifth circle */);
+game.checkCirclePosition(circles[0]);
+game.checkCirclePosition(circles[1]);
+game.checkCirclePosition(circles[2]);
+game.checkCirclePosition(circles[3]);
+game.checkCirclePosition(circles[4]);
+game.checkCirclePosition(circles[5]);
+game.checkCirclePosition(circles[6]);
+game.checkCirclePosition(circles[7]);
+game.checkCirclePosition(circles[8]);
+game.checkCirclePosition(circles[9]);
 
             // TODO 8 / TODO 9 : Iterate over the array
-           
-            
+           for (var i = 0; i < circles.length; i++) {
+           }
         }
     
         /* 
@@ -88,19 +102,14 @@ game.checkCirclePosition(/* bracket notation to access the fifth circle */);
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-          game.checkCirclePosition
-           circle.x
-            circle.x = 0 (left edge)
-            circle.x = canvas.width (right edge)
-            circle.y 
-            circle.y = 0 (top edge)
-            circle.y = canvas. height (bottom edge)
-            var rightEdge = circle.x + circle.radius;
+          if (circle.y > canvas.height ) {
+             circle.y = 0;
+          }
+          var rightEdge = circle.x + circle.radius
 
 
-            // YOUR TODO 7 CODE ENDS HERE //////////////////////////
-         forloops (var i = 0; i < 25; i++) drawCircle { 
-         }
+            // YOUR TODO 6 CODE ENDS HERE //////////////////////////
+        }
  
 }
         
