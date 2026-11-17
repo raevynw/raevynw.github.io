@@ -20,15 +20,22 @@ var init = function (window) {
         ///////////////////
         
         // TODO 1 : Declare and initialize our variables
-
+     var circles 
 
 
         // TODO 2 : Create a function that draws a circle 
-        
+        function drawCircle
+        function exampleFunction() {
+
+}
 
 
         // TODO 3 : Call the drawCircle() function
-
+        var circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
+physikz.addRandomVelocity(circle, canvas, 5, 5);
+view.addChild(circle);
+circles.push(circle);
+functionName(drawCircle);
 
 
         // TODO 7 : Use a loop to create multiple circles
@@ -47,10 +54,21 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the position of each circle using physikz.updatePosition()
-
+           circles[0]
+           physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
+           physikz.updatePosition(/* bracket notation to access the first circle */);
+physikz.updatePosition(/* bracket notation to access the second circle */);
+physikz.updatePosition(/* bracket notation to access the third circle */);
+physikz.updatePosition(/* bracket notation to access the fourth circle */);
+physikz.updatePosition(/* bracket notation to access the fifth circle */);
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           
+           game.checkCirclePosition()
+           game.checkCirclePosition(/* bracket notation to access the first circle */);
+game.checkCirclePosition(/* bracket notation to access the second circle */);
+game.checkCirclePosition(/* bracket notation to access the third circle */);
+game.checkCirclePosition(/* bracket notation to access the fourth circle */);
+game.checkCirclePosition(/* bracket notation to access the fifth circle */);
 
             // TODO 8 / TODO 9 : Iterate over the array
            
@@ -70,11 +88,21 @@ var init = function (window) {
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
+          game.checkCirclePosition
+           circle.x
+            circle.x = 0 (left edge)
+            circle.x = canvas.width (right edge)
+            circle.y 
+            circle.y = 0 (top edge)
+            circle.y = canvas. height (bottom edge)
+            var rightEdge = circle.x + circle.radius;
 
 
-            // YOUR TODO 6 CODE ENDS HERE //////////////////////////
-        }
+            // YOUR TODO 7 CODE ENDS HERE //////////////////////////
+         forloops (var i = 0; i < 25; i++) drawCircle { 
+         }
+ 
+}
         
         /////////////////////////////////////////////////////////////
         // --- NO CODE BELOW HERE  --- DO NOT REMOVE THIS CODE --- //
